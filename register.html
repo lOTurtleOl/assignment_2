@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <img src="images/tech2gether.png" alt="The tech2gether logo"> <!--Places the image I have saved into the header container-->
+        <h1>
+            Springfield Tech2Gether <!--Title in the header-->
+        </h1>
+
+        <h2>
+            Come hang out and talk about all things tech, we don't byte!
+        </h2>
+
+        <!--Navigation bar with an unordered list for the links-->
+        <nav> 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html" target="_blank">schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Please enter your information below to register for our upcoming meeting:</h1>
+        <br>
+
+        <hr>
+
+        <!--a form, set to send you to thankyou.html when the submit button is clicked-->
+        <form action="thankyou.html">
+            <!--label assigned to the text box, as well as the prompt-->
+            <label for="fname">First name:</label><br> 
+            <!--input type is a text box with the id fname, which the label uses to associate the prompt with it-->
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <br>
+            <!--type is a radio button that is toggleable, id is still matching to the prompt. name is the thing the value is assigned to, and the value is what people see-->
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" name="css" id=" fav_language" value="CSS">
+            <label for="radio">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="radio" name="other" id="fav_language" value="Other">
+            <label for="other">Other</label><br>
+            <br>
+            <!--type is a button to submit the data and interacts based on the action I gave the form-->
+            <input type="submit" value="Submit">
+        </form>    
+        
+    </main>
+
+    <hr>
+
+    <footer>
+        Andrew Hughes &copy; 2024
+    </footer>
+
+</body>
+</html>
