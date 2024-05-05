@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(75, 161, 231);
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    box-shadow: 1px 1px 1px lightblue;
+    border: 1px outset rgb(75, 161, 231);
+    border-radius: 3%;
+    transition: 2s;
+}
+
+img:hover {
+    box-shadow: 5px 5px 20px lightblue;
+}
