@@ -8,24 +8,32 @@
 </head>
 <body>
     <!--header semantic tag-->
-    <header>
+    <header class="grid-container">
+        <div class="grid-item">
+            <img src="images/devs_logo.png" alt="Springfield Devs Logo"> <!--Places the image I have saved into the header container-->
+        </div>
 
-        <img src="images/devs_logo.png" alt="Springfield Devs Logo"> <!--Places the image I have saved into the header container-->
-        <h1>
-            Springfield Devs <!--Title in the header-->
-        </h1>
+        <div class="grid-item">
+            <h1>
+                Springfield Devs <!--Title in the header-->
+            </h1>
 
-        <!--smaller header-->
-        <h2>
-            Come hang out and talk about all things tech, we don't byte!
-        </h2>
+            <!--smaller header-->
+            <h2>
+                Come hang out and talk about all things tech, we don't byte!
+            </h2>
+
+            <h3>(Well, maybe just a bit.)</h3>
+        </div>
 
         <!--Navigation bar with an unordered list for the links-->
-        <nav> 
-            <a href="index.html">Home</a></li>
-            <a href="schedule.html" target="_blank">Schedule</a></li>
-            <a href="register.html" target="_blank">Register</a></li>
-        </nav>
+        <div class="grid-item-nav">
+            <nav> 
+                <a href="index.html">Home</a></li>
+                <a href="schedule.html" target="_blank">Schedule</a></li>
+                <a href="register.html" target="_blank">Register</a></li>
+            </nav>
+        </div>
 
     </header>
 

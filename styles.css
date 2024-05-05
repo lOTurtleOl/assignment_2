@@ -4,6 +4,7 @@ body {
 
 header {
     text-align: center;
+    grid: c;
 }
 
 nav {
@@ -21,8 +22,25 @@ img {
     border: 1px outset rgb(75, 161, 231);
     border-radius: 3%;
     transition: 2s;
+    
 }
 
 img:hover {
     box-shadow: 5px 5px 20px lightblue;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item, .grid-item-nav {
+    border: 1px solid black;
+}
+
+.grid-item-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
