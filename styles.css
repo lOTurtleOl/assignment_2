@@ -1,7 +1,7 @@
 
 
 
-
+/*change background color of pages, make body a column layout and make the footer reach bottom of the screen*/
 body {
     background-color: rgb(75, 161, 231);
     min-height: 100vh;
@@ -9,21 +9,25 @@ body {
     flex-direction: column;
 }
 
+/*center the header*/
 header {
     text-align: center;
 }
 
+/*make nav a column and spread out elements*/
 nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
+/*remove underline from links and bold*/
 a {
     text-decoration: none;
     font-weight: bold;
 }
 
+/*make image rounded and shadowed*/
 img {
     box-shadow: 1px 1px 1px lightblue;
     border: 1px outset rgb(75, 161, 231);
@@ -32,15 +36,18 @@ img {
     
 }
 
+/*on hover image is emphasized*/
 img:hover {
     box-shadow: 5px 5px 20px lightblue;
 }
 
+/*make grid to evenly align content*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+/*column, center and wrap items*/
 .grid-item-head {
     display: flex;
     flex-direction: column;
@@ -48,16 +55,19 @@ img:hover {
     justify-content: center;
 }
 
+
 .grid-item-nav {
     display: flex;
     justify-content: center;
 }
 
+/*centers text and content in screen*/
 footer {
     text-align: center;
     margin-top: auto;
 }
 
+/*center, margin, round border and background color*/
 .schedule {
     text-align: center;
     margin-top: 3em;
@@ -67,6 +77,7 @@ footer {
     border-radius: 5px;
 }
 
+/*make hr full width*/
 hr {
     width: 100%;
 }
