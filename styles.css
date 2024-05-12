@@ -4,6 +4,9 @@
 
 body {
     background-color: rgb(75, 161, 231);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -35,7 +38,7 @@ img:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-item-head {
@@ -52,5 +55,42 @@ img:hover {
 
 footer {
     text-align: center;
+    margin-top: auto;
 }
+
+.schedule {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: #eeeeee;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+hr {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    background-color: #eeeeee;
+    padding: 25px;
+    border-radius: 5px;
+} 
+  
+.column {
+    display: inline;
+}
+
+.img1 {
+    max-width: 80%;
+    margin: auto;
+}
+
+
 

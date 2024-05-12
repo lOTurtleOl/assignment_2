@@ -7,28 +7,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+        
+    <!--header semantic tag-->
+        <header class="grid-container">
+            <div class="grid-item">
+                <img src="images/devs_logo.png" alt="Springfield Devs Logo"> <!--Places the image I have saved into the header container-->
+            </div>
+    
+            <div class="grid-item-head">
+                <h1>
+                    Springfield Devs <!--Title in the header-->
+                </h1>
+            </div>
+    
+            <!--Navigation bar with an unordered list for the links-->
+            <div class="grid-item-nav">
+                <nav> 
+                    <a href="index.html">Home</a></li>
+                    <a href="schedule.html" target="_blank">Schedule</a></li>
+                    <a href="register.html" target="_blank">Register</a></li>
+                </nav>
+            </div>
+    
+        </header>
+    
+        <hr> <!--thematic break-->
+        <br>
 
-        <img src="images/devs_logo.png" alt="Springfield Devs Logo"> <!--Places the image I have saved into the header container-->        <h1>
-            Springfield Devs <!--Title in the header-->
-        </h1>
-
-        <h2>
-            Come hang out and talk about all things tech, we don't byte!
-        </h2>
-
-        <!--Navigation bar with an unordered list for the links-->
-        <nav>         
-            <a href="index.html">Home</a></li>
-            <a href="schedule.html">Schedule</a></li>
-            <a href="register.html" target="_blank">Register</a></li>            
-        </nav>
-
-    </header>
-
-    <main>
+    <main class="schedule">
         <!--table with three rows, one is three headers for the table and the other two are 3 table data cells-->
-        <table width="40%">
+        <table width="100%">
             <tr>
               <th>Monday</th>
               <th>Wednesday</th>
